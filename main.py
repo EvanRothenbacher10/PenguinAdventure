@@ -6,5 +6,5 @@ chinstrapFacts = [""]
 import os
 def clear():     os.system('cls' if os.name == 'nt' else 'clear')
 clear()
-def start(x):     print(penguins[x])
+def start(x):     print(penguins[int(x)])
 start(input("Hello! Welcome to Penguin Facts! What Penguin would you like to learn about?\n[ 1. King, 2. Emperor, 3. Chinstrap, 4. Gentoo, 5. Little, 6. African, 7. Southern Rockhopper, 8. Marcaroni ]\n"))
